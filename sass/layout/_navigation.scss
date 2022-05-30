@@ -1,0 +1,17 @@
+.navigation {
+    color: $grayish-blue;
+    z-index: 20;
+ 
+    &-link{
+        font-size: 1.8rem;
+        margin: 0 2rem;
+        text-transform: capitalize;
+        transition: all .4s;
+
+        &:hover {
+            color: $dark-blue;
+            padding-bottom: 1rem;
+            border-bottom: .3rem solid $lime-green;
+        }
+    }
+}

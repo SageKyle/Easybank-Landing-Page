@@ -1,0 +1,24 @@
+.btn {
+    color: $white;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    text-align: center;
+    width: fit-content;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    background-image: linear-gradient(90deg, $lime-green, $bright-cyan);
+    border-radius: 5rem;
+    transition: all .2s;
+
+    &:hover {transform: translateY(.5rem);}
+
+    &:active {transform: translateY(-.5rem);}
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100%;
+    padding-top: 2rem;
+}

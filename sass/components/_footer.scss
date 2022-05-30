@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    background-color: $dark-blue;
+
+    &-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    &-link {
+        color: $white;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        margin: 1rem 0;
+
+        &:hover {
+            color: $lime-green;
+        }
+    }
+
+    &-copyright {
+        margin-left: 8rem;
+    }
+
+    &-paragraph {
+        font-size: 1.5rem;
+    }
+}
+
+.social-ctn {
+    margin-top: 2rem;
+}
+
+.social-icon {
+    margin: 1rem;
+
+    &:hover {
+        filter: invert(61%) sepia(79%) saturate(453%) hue-rotate(83deg) brightness(96%) contrast(85%);
+    }
+}
+
+.design {
+    font-family: cursive;
+    text-align: center;
+    transition: all .4s;
+
+    &:hover {transform: translateY(.5rem);}
+
+    &:active {transform: translateY(-.5rem);}
+}

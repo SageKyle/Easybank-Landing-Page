@@ -1,0 +1,14 @@
+{
+  "name": "easybank-landing-page",
+  "version": "1.0.0",
+  "description": "easybank landing page design",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Paul Ominyi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
