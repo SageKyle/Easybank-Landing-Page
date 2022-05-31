@@ -249,7 +249,8 @@ a {
     align-items: center;
     padding: 2rem 5rem;
     position: relative;
-    background-color: white; }
+    background-color: white;
+    overflow: visible; }
   .toggle {
     display: inline-block;
     background-image: url("../images/icon-close.svg");
